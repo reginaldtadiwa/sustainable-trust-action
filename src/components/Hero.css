@@ -1,0 +1,49 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Vertically center content */
+  background-image: url('homepic.jpg'); /* Replace with your hero image URL */
+  background-size: cover; /* Ensure the background image covers the whole section */
+  background-position: center; /* Center the background image */
+  height: 100vh; /* Ensure the hero section takes up the full height of the viewport */
+  width: 100%; /* Ensure the section takes up the full width */
+  padding: 0 20px; /* Optional padding to avoid content from touching the edges */
+  position: relative; /* Positioning context for content */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+/* Hero Content */
+.hero-content {
+  text-align: right; /* Align text to the right */
+  max-width: 500px; /* Limit the content width */
+  color: white; /* Text color */
+  padding-right: 20px; /* Optional padding to avoid text being too close to the edge */
+}
+
+.hero h1 {
+  font-size: 3rem; /* Adjust heading size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* CTA Button */
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2E8B57; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #3CB371; /* Change button color on hover */
+}
+
