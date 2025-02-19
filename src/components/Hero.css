@@ -1,9 +1,10 @@
 /* Hero Section */
 .hero {
+  
   display: flex;
-  justify-content: flex-end; /* Align content to the right */
+  justify-content: center; /* Align content to the right */
   align-items: center; /* Vertically center content */
-  background-image: url('homepic.jpg'); /* Replace with your hero image URL */
+  background-image: url('homepic2.jpg'); /* Replace with your hero image URL */
   background-size: cover; /* Ensure the background image covers the whole section */
   background-position: center; /* Center the background image */
   height: 100vh; /* Ensure the hero section takes up the full height of the viewport */
@@ -15,10 +16,11 @@
 
 /* Hero Content */
 .hero-content {
-  text-align: right; /* Align text to the right */
+  text-align: center; /* Align text to the right */
   max-width: 500px; /* Limit the content width */
   color: white; /* Text color */
-  padding-right: 20px; /* Optional padding to avoid text being too close to the edge */
+ /* padding-right: 70px; /* Optional padding to avoid text being too close to the edge */
+  
 }
 
 .hero h1 {

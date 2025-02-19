@@ -1,25 +1,16 @@
-import React, { Component } from "react";
-import homepic from "./homepic.jpg"; // Adjust path if needed
+import React from 'react';
+import './Hero.css';
 
-class TestHero extends Component {
-  render() {
-    const myStyle = {
-      backgroundImage: `url(${homepic})`, // Use template literal
-      height: "100vh",
-      marginTop: "-140px",
-      fontSize: "50px",
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-      //backgroundsize: cover,
-      backgroundPosition: "center"
-      
-    };
-    return (
-      <div style={myStyle}>
-        <h1>Reginald Chikumbu</h1>
+const Hero = () => {
+  return (
+    <section className="hero">
+      <div className="hero-content">
+        <h1>Building a Sustainable Future</h1>
+        <p>Join us in creating a cleaner, greener, and more inclusive community.</p>
+        <button className="cta-button">Get Involved</button>
       </div>
-    );
-  }
-}
+    </section>
+  );
+};
 
-export default TestHero;
+export default Hero;
