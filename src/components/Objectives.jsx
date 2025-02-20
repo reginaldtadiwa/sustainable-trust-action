@@ -1,10 +1,10 @@
-import React from 'react';
-import './Objectives.css';
+import React from "react";
+import "./Objectives.css";
 
 // Import images for each objective
-import objective1 from './homepic.jpg'; // Replace with your image paths
-import objective2 from './homepic.jpg';
-import objective3 from './homepic.jpg';
+import objective1 from "./homepic.jpg"; // Replace with your image paths
+import objective2 from "./homepic.jpg";
+import objective3 from "./homepic.jpg";
 
 const Objectives = () => {
   const objectives = [
@@ -20,7 +20,6 @@ const Objectives = () => {
       text: "To create a sustainable clean environment.",
       image: objective3,
     },
-    
   ];
 
   return (
