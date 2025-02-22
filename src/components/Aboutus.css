@@ -6,6 +6,8 @@
   display: flex;
   align-items: center; /* Vertically centers the content */
   padding: 20px; /* Adds padding to all sides */
+  margin-top: 7px;
+  width: 100%;
 }
 
 .aboutus-container {

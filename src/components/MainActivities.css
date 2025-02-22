@@ -1,11 +1,9 @@
 /* Main Activities Section */
 .main-activities {
-    padding-left: 20px;
-    background-color: #CD5C5C;
-    text-align: center;
-    margin-top: -60px;
-    width: 100%;
-    left:0;
+  padding: 15px 20px;
+  background-color: #CD5C5C;
+  text-align: center;
+  width: 100%; 
   }
   
   .main-activities h2 {
@@ -31,6 +29,7 @@
     font-size: 2rem;
     margin-bottom: 20px;
     color: white;
+   
   }
   
   .content p {
