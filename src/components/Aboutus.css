@@ -1,3 +1,4 @@
+
 .aboutus {
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center; /* Centers the background image */
@@ -18,7 +19,7 @@
 
 .aboutus-content {
   max-width: 600px; /* Limits the width of the text */
-  background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white background to the text */
+  background-color: #00000080; /* Adds a semi-transparent white background to the text */
   padding: 20px; /* Adds padding inside the content box */
   border-radius: 10px; /* Rounds the corners of the content box */
 }
@@ -26,12 +27,15 @@
 .aboutus-content h2 {
   margin-bottom: 20px; /* Adds space below the heading */
   font-size: 2rem; /* Larger font size for headings */
+  color:white;
 }
 
 .aboutus-content p {
-  margin-bottom: 15px; /* Adds space between paragraphs */
+  margin-bottom: 17px; /* Adds space between paragraphs */
   line-height: 1.6; /* Improves readability */
   font-size: 1rem; /* Base font size for paragraphs */
+  color:white;
+  font-weight: bold;
 }
 
 /* Responsive Styles */

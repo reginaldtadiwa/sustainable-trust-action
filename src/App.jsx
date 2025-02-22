@@ -6,6 +6,7 @@ import Objectives from "./components/Objectives";
 import MainActivities from "./components/MainActivities";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
+import "./App.css";
 
 function App() {
   return (
