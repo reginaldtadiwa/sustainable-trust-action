@@ -1,22 +1,16 @@
-
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 /* Hero Section */
 .hero {
   margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('homepic2.jpg');
+  background-image: url("homepic2.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
   padding: 0 20px;
-  position: relative;
+
   background-repeat: no-repeat;
 }
 
@@ -50,5 +44,5 @@ body {
 }
 
 .cta-button:hover {
-  background-color: #3CB371;
+  background-color: #3cb371;
 }
