@@ -1,13 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+🌱 Sustainable Trust Action
+A modern, responsive website built with React to showcase and support the work of Sustainable Trust Action — an initiative dedicated to promoting sustainability, environmental awareness, and community empowerment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This platform serves as a digital hub for sharing projects, resources, events, and stories that drive meaningful change in communities.
 
-Currently, two official plugins are available:
+💡 Features
+🖼️ Clean, responsive UI/UX
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Sustainable-Trust-Action
-this is the website of Sustainable Trust Action. Sustainable Action Trust is a registered community based organization established in 2023.
->>>>>>> 91f9b5942cecb121e2ccf5bf9f6444985b4c8eee
+📄 About Us, Projects, and Contact pages
+
+📢 Blog or News section (if applicable)
+
+🌍 Focus on sustainability and social impact
+
+📱 Mobile-friendly design
+
+🧩 Modular and scalable component architecture
+
+⚙️ Tech Stack
+Frontend: React.js
+
+Styling: CSS
+
+🚀 Getting Started
+Prerequisites
+Node.js (v14 or above)
+
+npm or yarn
